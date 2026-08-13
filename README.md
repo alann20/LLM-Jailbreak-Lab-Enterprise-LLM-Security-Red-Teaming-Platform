@@ -793,6 +793,7 @@ Run the platform with:
 
 python main.py
 
+```text
 Example:
 
 Running JB-001 [instruction_override]
@@ -805,7 +806,7 @@ JB-002: PASS
 
 Running JB-003 [context_manipulation]
 JB-003: PASS
-
+```text
 
 Results saved to results/results.json
 
@@ -814,6 +815,7 @@ Model Providers
 
 The architecture supports multiple provider strategies.
 
+```mermaid
 flowchart LR
 
     Config["app/config.py"]
@@ -831,7 +833,7 @@ flowchart LR
     Executor --> Evaluator["AI Evaluator"]
 
     Evaluator --> Risk["Risk Engine"]
-
+```
 Current provider options:
 
 MODEL_PROVIDER=mock
@@ -949,7 +951,8 @@ flowchart TB
     Compliance --> Audit
 
 ---
-Roadmap
+
+## Roadmap
 Phase 1 — Foundation
  Python project
  Attack dataset
