@@ -756,6 +756,7 @@ FAIL
 
 Future versions can introduce a multi-dimensional score:
 
+```text
 Risk Score
 │
 ├── Prompt Injection
@@ -767,7 +768,7 @@ Risk Score
 ├── Excessive Agency
 ├── Hallucination
 └── Resource Consumption
-
+```
 ---
 ## Security Metrics
 
